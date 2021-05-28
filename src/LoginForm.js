@@ -70,8 +70,8 @@ this.resetForm();
     onChange={ (val) => this.setInputValue('username', val) }/>
     <InputField 
     type='password' 
-    placeholder='password'
-    value={this.state.passsword ? this.state.password: ''} 
+    placeholder='Password'
+    value={this.state.password ? this.state.password: ''} 
     onChange={ (val) => this.setInputValue('password', val) }/> 
     
     <SubmitButton
